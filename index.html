@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Paulina Velarde">
+    <meta name="description" content="Portafolio de desarrollo web de Paulina Velarde">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Paulina Velarde | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/logo-pv-bn.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    
+
+ <div class="burbujas">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+    <div class="top-background">
+        <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+        
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion Hero -->
+      <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-row justify-content-center align-items-center">
+          <div class="hero-principal"> 
+            <h1>Hola, soy Pau</h1>
+            <h2>Desarrollo sitios web y me apasiona la ciberseguridad.</h2>
+           
+          </div>
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logo-pv.png" width="400" alt="Logo de la página web">
+          </a>
+
+         
+         
+        <div class="hero-inferior">
+        </div>
+      </section>
+    </div>
+    
+    <main>
+        <!-- Sobre mi -->
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Un poco sobre mi</h2>
+          <p class="seccion-texto">Egresada de la carrera de Ingeniería en Computación. Preparada para utilizar mis habilidades y nuevos
+            desafíos que me mantengan en aprendizaje que brinden experiencias profesionales y me permitan
+            combinar mis conocimientos en ciberseguridad, desarrollo web y la nube. Mi objetivo principal es
+            aprender y contribuir en un equipo tecnológico comprometido con la seguridad y la innovación.</p>
+        </div>
+      </section>
+
+      <!-- Experiencia -->
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!-- Desarrollo Web -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-display"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Creación de estructuras y contenido web.
+                <br>Diseño y estilo de páginas web mediante CSS.
+                <br>Conocimientos básicos en programación web utilizando JavaScript.
+              </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">HTML</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">JavaScript</span>
+              </div>
+            </div>
+            <!-- Articulos -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-lock-fill"></i>
+              <p class="experiencia-titulo">Ciberseguridad</p>
+              <p>Conocimientos básicos en seguridad de redes.
+                <br><br>Amenazas comunes en línea y métodos para identificar, mitigar y responder a incidentes de seguridad.
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Linux</span>
+                <span class="badge text-bg-primary">Gestión de amenazas</span>
+                <span class="badge text-bg-primary">Buenas prácticas</span>
+                
+              </div>
+            </div>
+            <!-- Estudiante -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-cloudy-fill"></i>
+              <p class="experiencia-titulo">Cloud Services</p>
+              <p>Comprensión básica de conceptos de virtualización y contenedores.
+                <br>Principios de seguridad en la nube, como el control de acceso y la administración de identidades.
+                <br>Conocimiento de herramientas de monitoreo y escalabilidad.
+              </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">AWS</span>
+                <span class="badge text-bg-primary">Google Cloud</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+
+
+        <!-- Galeria de Proyectos -->
+        <div class="proyectos-contenedor">
+     
+            <!-- Proyecto 1 -->
+
+              <div class="proyecto">
+                <img id="imagen1" class="p1" src="imagenes/book.jpg" alt="Proyecto 1">
+                
+              </div>
+            
+            <!-- Proyecto 2 -->
+          
+              <div class="proyecto">
+                <img id="imagen2" class="p2" src="imagenes/google.webp" alt="Proyecto 1">
+              </div>
+           
+            <!-- Proyecto 3 -->
+           
+              <div class="proyecto">
+                <img id="imagen3" class="p3" src="imagenes/music.jpg" alt="Proyecto 1">
+      
+              </div>
+
+      
+              <div id="proyecto1" class="proyecto-more">
+                <h3 class="texto-contenedor ">BOOKFRIEND</h3>
+                <p class="texto-contenedor ">Biblioteca digital donde se encuentra una variedad de reseñas de libros de múltiples géneros.</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/vpauv/Bookfriend.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://bookfriend-pv.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+  
+              <div id="proyecto2" class="proyecto-more">
+                <h3 class="texto-contenedor ">GOOGLE CLONE</h3>
+                <p class="texto-contenedor ">Replicación de la página inicial de búsqueda Google.</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/vpauv/Google-clone.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://google-clone-pv.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+  
+              <div id="proyecto3" class="proyecto-more">
+                <h3 class="texto-contenedor ">MUSICVERSE</h3>
+                <p class="texto-contenedor ">Encuentra y adquiere música digital de diferentes géneros</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/vpauv/proyectoCRUD.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://musicverse-pv.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+
+          <a href="https://github.com/vpauv" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-light btn-lg">
+              Ver más proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </a>
+
+      </section>
+      
+
+      <!-- Contacto -->
+      <section class="contacto seccion-oscura">
+        <div class="container">
+          <div id="contacto" class="container text-center rectangulo d-flex justify-content-evenly">
+              <div class="col-12 col-md-4 seccion-titulo">
+                ¡Pongámonos en contacto!
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                Comencemos tu proyecto de desarrollo web y hacer que tu visión se vuelva realidad.
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+      <section id="contacto" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Contacto</h2>
+        
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="iconos-contenedor">
+                  <a href="www.linkedin.com/in/paulina-velarde-valencia-005157252" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                
+                </div>
+                <p class="testimonio-texto">Conoce un poco más de mi y mi experiencia laboral y académica.</p>
+        
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/vpauv" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+                <p class="testimonio-texto">Conoce más sobre mis otros proyectos y sigueme en el proceso del desarrollo de mucho más.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-envelope"></i>
+                </a>
+                <p class="testimonio-texto">  Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad...
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/logo-pv.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Desarrollo en progreso.<br>Colaboremos juntos para crear grandes proyectos.</p>
+      
+      <div class="derechos-de-autor">Creado por Paulina Velarde (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
